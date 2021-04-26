@@ -5,9 +5,8 @@ import { GlobalStyles, lightTheme, darkTheme } from "./components/globalStyles";
 import {ThemeProvider} from "styled-components";
 import  {DarkMode} from "./components/DarkMode";
 import Toggle from "./components/Toggle"
-
+import Sign from './components/sign/Sign';
 const App = () => {
-    
   const [theme, toggleTheme] = DarkMode();
   const themeMode = theme === 'light' ? lightTheme : darkTheme;
   return (
@@ -18,9 +17,8 @@ const App = () => {
       <center>
       <Title/>
       </center>
-     
-   
-
+    
+     <Sign/>
     </div>
     </ThemeProvider> 
   )

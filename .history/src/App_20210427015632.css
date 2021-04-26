@@ -1,0 +1,11 @@
+
+.App{
+  position: obsolute;
+  padding:12px;
+  z-index:1;
+  border-bottom : 1px solid lightgray;
+}
+
+/* .theme{
+  position: relative;
+} */
