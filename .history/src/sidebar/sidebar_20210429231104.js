@@ -34,7 +34,7 @@ function SidebarComponent(props)
      if(notes){
       return (
             <div className={classes.sidebarContainer}>
-                  <Button  
+                  <Button  disabled
                         onClick={newNoteBtnClick}
                         className={classes.newNoteBtn}>{addingNote ? 'Cancel' : 'New Note'}</Button>
                   {
