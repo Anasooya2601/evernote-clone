@@ -98,7 +98,7 @@ function App() {
       <Title/>
       </div>
       <div className="App_header">
-       
+        <center>
       <SidebarComponent 
             selectedNoteIndex = {selectedNoteIndex}
             notes = {notes}
@@ -117,7 +117,7 @@ function App() {
           noteUpdate = {noteUpdate}></EditorComponent>  :
         null
         }
-     
+        </center>
       </div>
   </ThemeProvider> 
  

@@ -5,7 +5,7 @@ import { GlobalStyles, lightTheme, darkTheme } from "./components/globalStyles";
 import {ThemeProvider} from "styled-components";
 import  {DarkMode} from "./components/DarkMode";
 import Toggle from "./components/Toggle"
-import EditorComponent from './editor/editor';
+import EditorComponent from './components/editor/editor';
 import SidebarComponent from './sidebar/sidebar'
 import firebase from 'firebase/app';
 import projectFirestore from './firebase/config';

@@ -1,6 +1,6 @@
 
 .App{
-  display:block;
+  /* display:flex; */
   padding:0.2px;
   z-index:1;
   border-bottom : 0.2px solid lightgray;
@@ -8,7 +8,7 @@
 }
 .App_header{
   padding: 20px;
- 
+
 }
 /* html, body {
   height: 100%;

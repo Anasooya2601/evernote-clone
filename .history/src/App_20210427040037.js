@@ -7,9 +7,8 @@ import  {DarkMode} from "./components/DarkMode";
 import Toggle from "./components/Toggle"
 import EditorComponent from './editor/editor';
 import SidebarComponent from './sidebar/sidebar'
-import firebase from 'firebase/app';
-import projectFirestore from './firebase/config';
-// import firebase from './firebase/config'
+// import firebase from 'firebase/app';
+import firebase from './firebase/config'
 function App() {
   const [selectedNote, setSelectedNote] = useState(null);
   const [notes, setNotes] = useState(null);
@@ -98,7 +97,6 @@ function App() {
       <Title/>
       </div>
       <div className="App_header">
-       
       <SidebarComponent 
             selectedNoteIndex = {selectedNoteIndex}
             notes = {notes}
@@ -117,7 +115,6 @@ function App() {
           noteUpdate = {noteUpdate}></EditorComponent>  :
         null
         }
-     
       </div>
   </ThemeProvider> 
  

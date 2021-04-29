@@ -3,7 +3,7 @@ import gram from './pic.svg'
 function Title() {
     return (
         <div >
-        <center>
+            <center>
          <img  src={gram} alt="" srcset=""/>
          </center>
         </div>

@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import Title from './components/Title'
 import "./App.css"
 import { GlobalStyles, lightTheme, darkTheme } from "./components/globalStyles";
@@ -7,10 +7,7 @@ import  {DarkMode} from "./components/DarkMode";
 import Toggle from "./components/Toggle"
 import EditorComponent from './editor/editor';
 import SidebarComponent from './sidebar/sidebar'
-import firebase from 'firebase/app';
-import projectFirestore from './firebase/config';
-// import firebase from './firebase/config'
-function App() {
+const App = () => {
   const [selectedNote, setSelectedNote] = useState(null);
   const [notes, setNotes] = useState(null);
   const [selectedNoteIndex, setSelectedNoteIndex] = useState(null);  
@@ -93,20 +90,16 @@ function App() {
     <GlobalStyles/>
     <div className="App">
   <Toggle theme={theme} toggleTheme={toggleTheme}/>
- 
-   
+      <center>
       <Title/>
-      </div>
       <div className="App_header">
-       
       <SidebarComponent 
             selectedNoteIndex = {selectedNoteIndex}
             notes = {notes}
             deleteNote={deleteNote}
             selectNote = {selectNote}
             newNote={newNote}
-            >
-               </SidebarComponent>
+            />
                 {
         selectedNote ? 
           <EditorComponent 
@@ -117,12 +110,14 @@ function App() {
           noteUpdate = {noteUpdate}></EditorComponent>  :
         null
         }
-     
       </div>
-  </ThemeProvider> 
- 
+      </center>
+     
+   
+
+    </div>
+    </ThemeProvider> 
   )
- 
 }
 
 export default App
