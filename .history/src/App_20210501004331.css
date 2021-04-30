@@ -1,0 +1,90 @@
+/* 
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+} */
+ .App{
+  display:block;
+  padding:0.2px;
+  z-index:1;
+  /* border-bottom : 0.2px solid lightgray; */
+  border-top:5px solid rgb(191, 124, 124);
+}   
+.App_header{
+  padding: 20px;
+ 
+}
+
+#evernote-container {
+  height: 100%;
+  box-sizing: border-box;
+}
+.app-container {
+  height: 100%;
+  box-sizing: border-box;
+}
+.quill {
+  height: 100%;
+  box-sizing: border-box;
+  width: calc(100% - 300px);
+  float: left;
+max-width: 600%;
+}
+.ql-container {
+  box-sizing: border-box;
+  height: calc(100% - 42px);
+  overflow-y: scroll;
+}
+.ql-editor {
+  cursor: text;
+}
+.MuiListItem-root.Mui-selected {
+  background-color: #d4d8e8 !important;
+}
+.no-note-selected {
+  font-size: 48px;
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 165px);
+}
+
+/* .theme{
+  position: relative;
+} */
+.app__headerImage
+{
+  object-fit: contain;
+  display: flex;
+}
+
+.app__signup
+{
+
+  display:flex;
+  flex-direction:column;
+
+}
+
+.app___header{
+  position : sticky;
+  top :0;
+  /* z-index:1; */
+  /* background-color: white; */
+  padding:20px;
+  /* border-bottom : 1px solid lightgray; */
+  object-fit: contain;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  display: flex;
+}
+/* .App{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+} */
