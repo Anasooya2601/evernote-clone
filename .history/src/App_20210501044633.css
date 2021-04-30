@@ -17,16 +17,16 @@ body {
   }
 
  .App{
-  display:block;
+  /* display:block;
   padding:0.2px;
-  z-index:1;
+  z-index:1; */
   /* border-bottom : 0.2px solid lightgray; */
   
 }   
 .App_header{
   padding: 20px;
-  width: 360%; 
-  height: auto; 
+  width: 360%;
+  height: auto;
   
 }
 

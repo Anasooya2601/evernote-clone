@@ -8,7 +8,9 @@ body {
   padding: 0;
   overflow: hidden;
 } */
+.body{
 
+}
 
 
  
@@ -25,9 +27,7 @@ body {
 }   
 .App_header{
   padding: 20px;
-  width: 360%; 
-  height: auto; 
-  
+ 
 }
 
 #evernote-container {
