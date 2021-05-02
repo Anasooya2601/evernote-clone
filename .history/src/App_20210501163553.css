@@ -7,7 +7,6 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-
 }
 
 
@@ -18,7 +17,7 @@ body {
   }
 
  .App{
-  display:block;
+  /* display:block; */
   padding:0.2px;
   z-index:1;
   /* border-bottom : 0.2px solid lightgray; */

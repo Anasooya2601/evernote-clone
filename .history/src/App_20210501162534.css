@@ -1,4 +1,4 @@
-
+/* 
 html,
 body {
   height: 100%;
@@ -7,8 +7,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-
-}
+} */
 
 
 
@@ -28,7 +27,7 @@ body {
   padding: 20px;
   width: 360%; 
   height: auto; 
- 
+  display:block;
 }
 
 #evernote-container {
